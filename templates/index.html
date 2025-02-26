@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block title %}Dark Web Intelligence Scanner{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="main-container">
+    <div class="wizard-container">
+        <div class="search-visualization">
+            <img src="{{ url_for('static', filename='images/cyber-search.svg') }}" alt="Search Visualization">
+        </div>
+        
+        <div class="wizard-header">
+            <h1>Dark Web Intelligence Scanner</h1>
+        </div>
+        
+        <div class="wizard-steps">
+            <div class="step active" id="step1-indicator">
+                <span>1</span> Target Input
+            </div>
+            <div class="step" id="step2-indicator">
+                <span>2</span> Scanning
+            </div>
+            <div class="step" id="step3-indicator">
+                <span>3</span> Results
+            </div>
+        </div>
+        
+        <div class="wizard-content">
+            <!-- Step 1: Search Input -->
+            <div class="step-content active" id="step1">
+                <h2>Enter Search Query</h2>
+                <p>Select a query type and provide the information to search for across dark web resources.</p>
+                <form id="searchForm">
+                    <div class="form-group">
+                        <label for="searchType">Search Type</label>
+                        <select id="searchType" name="searchType" class="form-control">
+                            <option value="email">Email Address</option>
+                            <option value="username">Username</option>
+                            <option value="phone">Phone Number</option>
+                            <option value="domain">Domain/Website</option>
+                            <option value="company">Company Name</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="searchQuery">Search Query</label>
+                        <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter your search query" value="{{ email }}" required>
+                        <div id="search-error" class="error-message"></div>
+                    </div>
+                    <button type="submit" class="btn">Begin Scan <i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+            
+            <!-- Step 2: Loading / Progress -->
+            <div class="step-content" id="step2">
+                <div class="scan-line"></div>
+                <div class="loading-container">
+                    <div class="loading-visual">
+                        <div class="loading-spinner"></div>
+                        <div class="loading-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <h3 id="loading-message">Initializing Dark Web Scan...</h3>
+                    <div class="search-progress">
+                        <div class="progress-bar" id="progress-bar"></div>
+                    </div>
+                    <div id="current-status">Connecting to Tor network...</div>
+                </div>
+            </div>
+            
+            <!-- Step 3: Results -->
+            <div class="step-content" id="step3">
+                <h2>Scan Results</h2>
+                <div class="status-bar" id="summary-status">
+                    <i class="fas fa-info-circle"></i>
+                    <div>
+                        <strong>Status:</strong> <span id="scan-status">Completed</span>
+                    </div>
+                </div>
+                
+                <div class="data-visualization">
+                    <h3>Scan Summary</h3>
+                    <div class="scan-summary" id="scan-stats">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+                
+                <div class="results" id="results">
+                    <!-- Results will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/scanner.js') }}"></script>
+{% endblock %}

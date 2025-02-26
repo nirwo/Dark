@@ -1,0 +1,126 @@
+/* Layout styles for Dark Web Scanner */
+
+/* Main layout container */
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #0a192f;
+    color: #e6f1ff;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 260px;
+    background-color: rgba(18, 30, 56, 0.9);
+    padding: 25px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(100, 255, 218, 0.1);
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.logo h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #64ffda;
+    margin: 0;
+}
+
+.nav-menu {
+    flex: 1;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    margin-bottom: 5px;
+}
+
+.nav-menu ul li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: #8892b0;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li a.active {
+    color: #64ffda;
+    background-color: rgba(100, 255, 218, 0.05);
+}
+
+.nav-menu ul li a i {
+    margin-right: 10px;
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar-footer {
+    padding: 15px 20px;
+    border-top: 1px solid rgba(100, 255, 218, 0.1);
+    font-size: 12px;
+    color: #8892b0;
+}
+
+.user-info {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* Main content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 260px;
+    width: calc(100% - 260px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 15px 0;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* Main container for wizard */
+.main-container {
+    padding: 20px;
+    width: 100%;
+}

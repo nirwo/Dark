@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Dark Web Scanner{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    <div class="app-container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/dark-web-icon.svg') }}" alt="Logo">
+                <h1>Dark Web Scanner</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="{{ url_for('index') }}"><i class="fas fa-search"></i> New Scan</a></li>
+                    {% if current_user.is_authenticated %}
+                    <li><a href="{{ url_for('history.view_history') }}"><i class="fas fa-history"></i> History</a></li>
+                    <li><a href="{{ url_for('auth.profile') }}"><i class="fas fa-user"></i> Profile</a></li>
+                    {% if current_user.is_admin %}
+                    <li><a href="{{ url_for('auth.admin_panel') }}"><i class="fas fa-shield-alt"></i> Admin</a></li>
+                    {% endif %}
+                    <li><a href="{{ url_for('auth.logout') }}"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                    {% else %}
+                    <li><a href="{{ url_for('auth.login') }}"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                    <li><a href="{{ url_for('auth.signup') }}"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <p>&copy; 2025 Dark Web Scanner</p>
+                {% if current_user.is_authenticated %}
+                <p class="user-info">Logged in as {{ current_user.name }}</p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="main-content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    
+    {% block scripts %}{% endblock %}
+</body>
+</html>

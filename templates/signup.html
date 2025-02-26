@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}Sign Up - Dark Web Scanner{% endblock %}
+
+{% block content %}
+<div class="auth-container">
+    <div class="auth-form">
+        <h2 class="auth-title">Create an Account</h2>
+        
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <div class="flash-message">
+            {{ messages[0] }}
+        </div>
+        {% endif %}
+        {% endwith %}
+        
+        <form method="POST" action="{{ url_for('auth.signup') }}">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+        
+        <div class="auth-separator">
+            <span>OR</span>
+        </div>
+        
+        <a href="{{ url_for('auth.google_login') }}" class="btn btn-google">
+            <img src="{{ url_for('static', filename='images/google-icon.svg') }}" alt="Google">
+            Sign up with Google
+        </a>
+        
+        <div class="auth-links">
+            <p>Already have an account? <a href="{{ url_for('auth.login') }}">Login</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}

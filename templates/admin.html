@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block title %}Admin Panel - Dark Web Scanner{% endblock %}
+
+{% block content %}
+<div class="admin-container">
+    <h2>Admin Panel</h2>
+    
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="flash-message">
+        {{ messages[0] }}
+    </div>
+    {% endif %}
+    {% endwith %}
+    
+    <div class="admin-tabs">
+        <a href="{{ url_for('auth.admin_panel') }}" class="tab active">Users</a>
+        <a href="{{ url_for('history.admin_history') }}" class="tab">Search History</a>
+        <a href="{{ url_for('auth.view_logs') }}" class="tab">View Logs</a>
+    </div>
+    
+    <div class="admin-content">
+        <div class="admin-card">
+            <h3>User Management</h3>
+            <p>Total users: {{ users|length }}</p>
+            
+            <div class="user-list">
+                <div class="user-header">
+                    <div class="user-id">ID</div>
+                    <div class="user-name">Name</div>
+                    <div class="user-email">Email</div>
+                    <div class="user-created">Created</div>
+                    <div class="user-login">Last Login</div>
+                    <div class="user-role">Role</div>
+                    <div class="user-actions">Actions</div>
+                </div>
+                
+                {% for user in users %}
+                <div class="user-item">
+                    <div class="user-id">{{ user.id }}</div>
+                    <div class="user-name">{{ user.name }}</div>
+                    <div class="user-email">{{ user.email }}</div>
+                    <div class="user-created">{{ user.created_at.strftime('%Y-%m-%d') }}</div>
+                    <div class="user-login">{{ user.last_login.strftime('%Y-%m-%d') if user.last_login else 'Never' }}</div>
+                    <div class="user-role">
+                        {% if user.is_admin %}
+                        <span class="admin-badge"><i class="fas fa-shield-alt"></i> Admin</span>
+                        {% else %}
+                        <span class="user-badge"><i class="fas fa-user"></i> User</span>
+                        {% endif %}
+                    </div>
+                    <div class="user-actions">
+                        {% if not user.is_admin %}
+                        <a href="{{ url_for('auth.make_admin', user_id=user.id) }}" class="btn btn-sm btn-admin">
+                            Make Admin
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,292 @@
+{% extends 'base.html' %}
+
+{% block title %}Search Details - Dark Web Scanner{% endblock %}
+
+{% block content %}
+<div class="search-details-container">
+    <div class="search-details-header">
+        <div class="back-link">
+            <a href="{{ url_for('history.view_history') }}"><i class="fas fa-arrow-left"></i> Back to History</a>
+        </div>
+        <h2>Search Results for {% if search.search_type is defined %}{{ search.search_type|title }}: {{ search.search_query }}{% else %}{{ search.email_searched }}{% endif %}</h2>
+        <div class="search-meta">
+            <span><i class="fas fa-calendar"></i> {{ search.timestamp.strftime('%Y-%m-%d %H:%M') }}</span>
+            <span><i class="fas fa-shield-alt"></i> Risk Level: <span class="risk-{{ search.risk_level }}">{{ search.risk_level|title }}</span></span>
+            <span><i class="fas fa-clock"></i> Duration: {{ "%.2f"|format(search.search_duration) }}s</span>
+            {% if search.search_type is defined %}<span><i class="fas fa-tag"></i> Type: {{ search.search_type|title }}</span>{% endif %}
+        </div>
+    </div>
+    
+    {% set results = search.get_results() %}
+    
+    {% if results and results.results %}
+    <div class="search-stats">
+        <div class="stat">
+            <div class="stat-value">{{ search.result_count }}</div>
+            <div class="stat-label">Mentions Found</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">{{ results.sites_searched }}</div>
+            <div class="stat-label">Sites Searched</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">{{ results.results|length }}</div>
+            <div class="stat-label">Sites with Hits</div>
+        </div>
+    </div>
+    
+    <div class="search-summary">
+        <h3>Breach Analysis Summary</h3>
+        <div class="summary-content">
+            <p>
+                This search for <strong>{% if search.search_type is defined %}{{ search.search_type|title }}: {{ search.search_query }}{% else %}{{ search.email_searched }}{% endif %}</strong> found 
+                {{ search.result_count }} mentions across {{ results.results|length }} dark web sites.
+                The overall risk assessment is <strong class="risk-{{ search.risk_level }}">{{ search.risk_level|title }}</strong>.
+            </p>
+            
+            <div class="recommendations">
+                <h4>Recommendations:</h4>
+                <ul>
+                    {% if search.risk_level in ['critical', 'high'] %}
+                    <li>Immediately change passwords for all accounts associated with this {% if search.search_type is defined %}{{ search.search_type }}{% else %}email{% endif %}</li>
+                    <li>Enable two-factor authentication where available</li>
+                    <li>Monitor accounts for suspicious activity</li>
+                    <li>Consider identity theft protection services</li>
+                    {% elif search.risk_level in ['medium-high', 'medium'] %}
+                    <li>Change passwords for important accounts</li>
+                    <li>Enable alerts for account activity</li>
+                    <li>Monitor accounts for suspicious activity</li>
+                    {% else %}
+                    <li>Continue monitoring for potential data breaches</li>
+                    <li>Practice good security hygiene</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="results-container">
+        {% set risk_level_info = {
+            'critical': {'label': 'Critical Risk', 'color': '#e74c3c'},
+            'high': {'label': 'High Risk', 'color': '#e67e22'},
+            'medium-high': {'label': 'Medium-High Risk', 'color': '#f39c12'},
+            'medium': {'label': 'Medium Risk', 'color': '#3498db'},
+            'low': {'label': 'Low Risk', 'color': '#2ecc71'}
+        } %}
+        
+        {% for risk in ['critical', 'high', 'medium-high', 'medium', 'low'] %}
+            {% set items = [] %}
+            {% for site_name, site_data in results.results.items() %}
+                {% if site_data.risk_level|default('medium') == risk %}
+                    {% set items = items + [(site_name, site_data)] %}
+                {% endif %}
+            {% endfor %}
+            
+            {% if items|length > 0 %}
+            <div class="risk-section">
+                <h3 style="margin: 25px 0 15px; padding-bottom: 10px; border-bottom: 2px solid {{ risk_level_info[risk].color }};">
+                    <i class="fas fa-shield-alt" style="color: {{ risk_level_info[risk].color }};"></i> 
+                    {{ risk_level_info[risk].label }} Findings ({{ items|length }})
+                </h3>
+                
+                {% for site_name, site_data in items %}
+                <div class="result-item" style="border-left-color: {{ risk_level_info[risk].color }};">
+                    <div class="result-header">
+                        <h3 style="margin: 0; font-size: 18px;">{{ site_name }}</h3>
+                        <span class="badge {{ site_data.risk_level|default('medium') }}"
+                              style="background-color: {{ risk_level_info[site_data.risk_level|default('medium')].color }}; color: white; padding: 5px 10px; border-radius: 4px;">
+                            {{ risk_level_info[site_data.risk_level|default('medium')].label }}
+                        </span>
+                    </div>
+                    <div class="result-body">
+                        <p style="margin-bottom: 15px;">{{ site_data.description|default('No additional information available.') }}</p>
+                        
+                        <div class="data-exposure">
+                            <h4>Potential Data Exposure:</h4>
+                            <ul class="exposure-list">
+                                {% set exposure_types = site_data.exposure_types|default([]) %}
+                                {% if 'password' in exposure_types %}<li><i class="fas fa-key"></i> Password</li>{% endif %}
+                                {% if 'email' in exposure_types %}<li><i class="fas fa-envelope"></i> Email</li>{% endif %}
+                                {% if 'personal' in exposure_types %}<li><i class="fas fa-user"></i> Personal Information</li>{% endif %}
+                                {% if 'financial' in exposure_types %}<li><i class="fas fa-credit-card"></i> Financial Data</li>{% endif %}
+                                {% if 'address' in exposure_types %}<li><i class="fas fa-home"></i> Address</li>{% endif %}
+                                {% if 'phone' in exposure_types %}<li><i class="fas fa-phone"></i> Phone Number</li>{% endif %}
+                                {% if exposure_types|length == 0 %}<li><i class="fas fa-question-circle"></i> Unknown</li>{% endif %}
+                            </ul>
+                        </div>
+                        
+                        <div class="breach-details">
+                            <h4>Breach Source: <span class="source-type">{{ site_data.type|default('Unknown')|title }}</span></h4>
+                            <p>{{ site_data.source_description|default('This data appears to have been exposed through a security incident.') }}</p>
+                        </div>
+                        
+                        <div class="mentions">
+                            <h4 style="margin-top: 0; margin-bottom: 15px; font-size: 16px;">Mentions ({{ site_data.mentions|length }})</h4>
+                            {% for mention in site_data.mentions %}
+                            <div class="mention">
+                                <div class="mention-context">{{ mention.context|default('Context not available') }}</div>
+                                <div class="mention-date">{{ mention.date|default('Date unknown') }}</div>
+                                {% if mention.additional_info %}
+                                <div class="mention-additional-info">
+                                    <span class="mention-label">Additional Info:</span> {{ mention.additional_info }}
+                                </div>
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                        </div>
+                        
+                        {% if site_data.related_info %}
+                        <div class="related-info">
+                            <h4>Related Information:</h4>
+                            <p>{{ site_data.related_info }}</p>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="no-results">
+        <p>No detailed results available for this search.</p>
+    </div>
+    {% endif %}
+    
+    <div class="search-details-actions">
+        <div class="dropdown">
+            <button class="btn btn-export dropdown-toggle">
+                <i class="fas fa-download"></i> Export Results
+            </button>
+            <div class="dropdown-content">
+                <a href="{{ url_for('history.export_search', search_id=search.id, format='json') }}">
+                    <i class="fas fa-file-code"></i> Export as JSON
+                </a>
+                <a href="{{ url_for('history.export_search', search_id=search.id, format='csv') }}">
+                    <i class="fas fa-file-csv"></i> Export as CSV
+                </a>
+                <a href="{{ url_for('history.export_search', search_id=search.id, format='pdf') }}">
+                    <i class="fas fa-file-pdf"></i> Export as PDF
+                </a>
+            </div>
+        </div>
+        <form action="{{ url_for('history.delete_search', search_id=search.id) }}" method="POST" class="inline-form">
+            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this search?')">
+                <i class="fas fa-trash"></i> Delete Search
+            </button>
+        </form>
+    </div>
+</div>
+
+<style>
+.search-summary {
+    background-color: #2c3e50;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.recommendations {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.recommendations h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.recommendations ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.recommendations li {
+    margin-bottom: 5px;
+}
+
+.data-exposure {
+    background-color: rgba(0,0,0,0.05);
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.data-exposure h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.exposure-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.exposure-list li {
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.exposure-list li i {
+    margin-right: 5px;
+}
+
+.breach-details {
+    margin-bottom: 15px;
+}
+
+.breach-details h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.source-type {
+    font-weight: normal;
+    background-color: #f1c40f;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #333;
+}
+
+.related-info {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.related-info h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mention-additional-info {
+    font-size: 13px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.mention-label {
+    font-weight: bold;
+}
+</style>
+{% endblock %}

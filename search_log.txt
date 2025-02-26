@@ -1,0 +1,539 @@
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 14:53:23 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8ca581a60>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error 404
+[Haystak Search] Error 404
+[Deep Search] Error 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c9febef0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c84f8b60>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ......-compatible" content="ie=edge">
+        <meta name="referrer" content="no-referrer">
+        <title>wolffdesign@gmail.com - OnionLand Search</title>
+        <meta name="description" content="Looking f......
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c84f8d70>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c856fef0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c856eea0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c85a88c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c856ef90>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c85aa0f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c85aa7e0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c856f260>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c84f9580>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c856f110>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c85a9340>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c83d5c10>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x70e8c83d5970>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+=== Scan completed with 28 sources checked ===
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 15:03:30 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa4784890>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error 404
+[Haystak Search] Error 404
+[Deep Search] Error 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa471a960>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2c8b140>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ......-compatible" content="ie=edge">
+        <meta name="referrer" content="no-referrer">
+        <title>wolffdesign@gmail.com - OnionLand Search</title>
+        <meta name="description" content="Looking f......
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2cae2d0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2cac5c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2caccb0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2cae4b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2cc5040>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa474c260>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa474cc50>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2c8b140>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2c8b0e0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2cae4b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa2cacc80>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa474da90>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f2aa47851c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+=== Scan completed with 28 sources checked ===
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 17:09:42 ===
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 17:11:40 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbb05bf980>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb0d7c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb0e1b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...wolffdesign@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.03200 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb23dd0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb23350>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb22660>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb21370>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb20920>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb200e0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb21df0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb22690>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb23800>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbb059dbb0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb20da0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb0f3e0>, 'Connection to blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion timed out. (connect timeout=30)'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb0f410>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Site: wolffdesign@gmail.com - I2P Search] Found mention: ...
+
+
+
+
+
+wolffdesign@gmail.com - i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+         ...
+=== Scan completed with 2 sources having hits ===
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 17:14:30 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb6a270>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb6bd70>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb6b320>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...wolffdesign@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.03200 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf2b6960>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf2b6270>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf2b54c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf2b48f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf37bef0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf37b230>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf37a000>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf37b110>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf37b650>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf2b4b60>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaf2b7890>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb20e30>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x75fbaeb21010>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 17:14:56 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f547a7b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f52c6d50>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f52c5880>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...wolffdesign@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.03200 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731ef742480>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731ef7417c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f52a2240>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f5318200>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731ef7efd10>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f52fa030>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f52fb050>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f52fb320>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f52fbd70>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f53181a0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f53180e0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f52c4950>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7731f53189e0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Site: wolffdesign@gmail.com - I2P Search] Found mention: ...
+
+
+
+
+
+wolffdesign@gmail.com - i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+         ...
+=== Scan completed with 2 sources having hits ===
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 18:32:48 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19e358a70>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19c9e1d90>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19c9e26f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...wolffdesign@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.03200 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3f710>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3eb70>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3e120>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c50a0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c5700>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c48c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c4c50>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c5700>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c41a0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c5220>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca60260>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3ddc0>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3ea80>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Site: wolffdesign@gmail.com - I2P Search] Found mention: ...
+
+
+
+
+
+wolffdesign@gmail.com - i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+         ...
+=== Scan completed with 2 sources having hits ===
+
+=== Dark Web Scan for litalgr22@gmail.com at 2025-02-26 18:33:33 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca61640>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c6300>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c4e00>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...litalgr22@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.03200 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c72f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c6b10>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3e060>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3c1a0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3eba0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19e343560>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c6120>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3e030>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19e366780>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19da3d640>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19e366600>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19da2a0c0>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=litalgr22@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca614f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Site: litalgr22@gmail.com - I2P Search] Found mention: ...
+
+
+
+
+
+litalgr22@gmail.com - i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+           ...
+=== Scan completed with 2 sources having hits ===
+
+=== Dark Web Scan for michael69garber@gmail.com at 2025-02-26 18:34:11 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19ca3d520>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9a04a0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9a0e00>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...michael69garber@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.02600 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d7d0fb0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d7d1e50>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19da3d1f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19da3c5f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19e367230>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19da3d5e0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19da29fa0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9a1760>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19e3651f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19da2b9b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19da3e5d0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9a1af0>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=michael69garber@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x77e19d9c4c80>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Site: michael69garber@gmail.com - I2P Search] Found mention: ...
+
+
+
+
+
+michael69garber@gmail.com - i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+
+
+
+
+i2p search
+
+
+
+
+
+
+
+
+
+     ...
+=== Scan completed with 2 sources having hits ===
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 19:18:16 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9941384200>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99413baf30>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401d4650>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...wolffdesign@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.02700 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99402b6a20>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99402b7680>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99402b7fb0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401d5070>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99400dcf20>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99400dd760>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99400de600>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99402b75c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99402b75f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99402b6d80>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99402b51c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9940298590>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9940273c50>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+=== Scan completed with 1 sources having hits ===
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 19:40:15 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99400dc980>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9941386c30>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9941614260>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...wolffdesign@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.02700 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401d6630>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9941384170>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99413843b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9941384410>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99400f9820>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99400fa6f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99400fb260>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401d5c10>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401d55e0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9941387aa0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9941384b60>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99413ba540>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99400df8f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+=== Scan completed with 1 sources having hits ===
+
+=== Dark Web Scan for wolffdesign@gmail.com at 2025-02-26 19:46:49 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401abc80>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af05430>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af05d00>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...wolffdesign@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 294 results found. (Query 0.02700 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993aff24e0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993aff2d20>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9940147e00>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401aa210>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9940160080>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993aff1d30>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993aff1070>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993aff0980>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af06b40>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f9940273110>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993aff0230>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401aacf0>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=wolffdesign@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401aaff0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+=== Scan completed with 1 sources having hits ===
+
+=== Dark Web Scan for admin@bybit.com at 2025-02-26 20:32:34 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af48e00>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af9e5d0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af9d2b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...admin@bybit.com - OnionLand Search OnionLand Search OnionLand Search About 754 results found. (Query 0.02500 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af9cb90>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb11c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb1f10>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af490d0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb3470>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb3fb0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afc8b30>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb3860>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb3650>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb24b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb1640>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993aff31a0>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=admin@bybit.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af06750>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+=== Scan completed with 1 sources having hits ===
+
+=== Dark Web Scan for 12@gmail.com at 2025-02-26 20:38:04 ===
+[Ahmia Search] Error: SOCKSHTTPConnectionPool(host='juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993bf57d10>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Torch Search] Error: Site returned status code 404
+[Haystak Search] Error: Site returned status code 404
+[Deep Search] Error: Site returned status code 404
+[Not Evil] Error: SOCKSHTTPConnectionPool(host='hss3uro2hsxfogfq.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afcb620>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Candle] Error: SOCKSHTTPConnectionPool(host='gjobqjj7wyczbqie.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afca3c0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[OnionLand Search] Found: ...12@gmail.com - OnionLand Search OnionLand Search OnionLand Search About 2,413 results found. (Query 0.04800 seconds)...
+[Breach Forums] Error: SOCKSHTTPConnectionPool(host='breachedu76kdyavc.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401bc9b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Directory] Error: SOCKSHTTPConnectionPool(host='breachdbfgvuydyd.onion', port=80): Max retries exceeded with url: /search.php?query=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401bfa40>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[RaidForums Archive] Error: SOCKSHTTPConnectionPool(host='raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion', port=80): Max retries exceeded with url: /search?keywords=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401bd520>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Database] Error: SOCKSHTTPConnectionPool(host='leakeddb7mheb4uu.onion', port=80): Max retries exceeded with url: /search/12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401bc380>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Leaked Source] Error: SOCKSHTTPConnectionPool(host='ugvvpzvfiuo2pc7g.onion', port=80): Max retries exceeded with url: /search/12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af483b0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Breach Parse] Error: SOCKSHTTPConnectionPool(host='breachparsevujm5r.onion', port=80): Max retries exceeded with url: /search.php?s=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af49220>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Deep Paste] Error: SOCKSHTTPConnectionPool(host='paste6kr6ttaxjdg.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401bc410>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Strong Hold Paste] Error: SOCKSHTTPConnectionPool(host='nzxj65x32vh2fkhk.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401bd490>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Onion Paste] Error: SOCKSHTTPConnectionPool(host='pastdbekanpk2fof.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993af4a9f0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[0day Forum] Error: SOCKSHTTPConnectionPool(host='qzbkwswfv5k2oj5d.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401ab230>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hack Forums] Error: SOCKSHTTPConnectionPool(host='hackforav3sjhkbi.onion', port=80): Max retries exceeded with url: /search.php?keywords=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f99401bdd90>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+[Hydra Market] Error: Site returned status code 404
+[Black Market] Error: SOCKSHTTPConnectionPool(host='blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion', port=80): Max retries exceeded with url: /search?q=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb2f90>: Failed to establish a new connection: 0x04: Host unreachable'))
+[Kilos Search] Error: SOCKSHTTPConnectionPool(host='dnmugu4755642434.onion', port=80): Max retries exceeded with url: /search?query=12@gmail.com (Caused by NewConnectionError('<urllib3.contrib.socks.SOCKSConnection object at 0x7f993afb19a0>: Failed to establish a new connection: 0x01: General SOCKS server failure'))
+=== Scan completed with 1 sources having hits ===

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Test</title>
+    <style>
+        body { padding: 20px; font-family: Arial, sans-serif; }
+        .image-test { margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; }
+        .image-test img { max-width: 200px; border: 1px dashed red; }
+    </style>
+</head>
+<body>
+    <h1>Static File Testing Page</h1>
+    
+    <div class="image-test">
+        <h3>Dark Web Icon (SVG)</h3>
+        <img src="/static/images/dark-web-icon.svg" alt="Dark Web Icon">
+    </div>
+    
+    <div class="image-test">
+        <h3>Cyber Search Icon (SVG)</h3>
+        <img src="/static/images/cyber-search.svg" alt="Cyber Search">
+    </div>
+    
+    <div class="image-test">
+        <h3>Background Pattern (PNG)</h3>
+        <img src="/static/images/background-pattern.png" alt="Background Pattern">
+    </div>
+    
+    <div class="image-test">
+        <h3>Dark Web Background (JPG)</h3>
+        <img src="/static/images/dark-web-bg.jpg" alt="Dark Web Background">
+    </div>
+    
+    <div class="image-test">
+        <h3>World Map (PNG)</h3>
+        <img src="/static/images/world-map.png" alt="World Map">
+    </div>
+    
+    <div class="image-test">
+        <h3>Security Badge (PNG)</h3>
+        <img src="/static/images/security-badge.png" alt="Security Badge">
+    </div>
+    
+    <div class="image-test">
+        <h3>Cyber Pattern (PNG)</h3>
+        <img src="/static/images/cyber-pattern.png" alt="Cyber Pattern">
+    </div>
+    
+    <script>
+        document.querySelectorAll('.image-test img').forEach(img => {
+            img.addEventListener('error', function() {
+                this.style.display = 'none';
+                const error = document.createElement('p');
+                error.textContent = `Error loading: ${this.src}`;
+                error.style.color = 'red';
+                this.parentNode.appendChild(error);
+            });
+            
+            img.addEventListener('load', function() {
+                const success = document.createElement('p');
+                success.textContent = `Successfully loaded!`;
+                success.style.color = 'green';
+                this.parentNode.appendChild(success);
+            });
+        });
+    </script>
+</body>
+</html>

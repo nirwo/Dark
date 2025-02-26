@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+
+{% block title %}Search History - Dark Web Scanner{% endblock %}
+
+{% block content %}
+<div class="history-container">
+    <h2><i class="fas fa-history"></i> Search History</h2>
+    
+    <div class="export-controls">
+        <button id="export-csv" class="btn btn-secondary"><i class="fas fa-file-csv"></i> Export CSV</button>
+        <button id="export-json" class="btn btn-secondary"><i class="fas fa-file-code"></i> Export JSON</button>
+    </div>
+    
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="flash-message">
+        {{ messages[0] }}
+    </div>
+    {% endif %}
+    {% endwith %}
+    
+    {% if history_items %}
+        <div class="history-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Search</th>
+                        <th>Type</th>
+                        <th>Results</th>
+                        <th>Risk Level</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in history_items %}
+                        <tr class="history-item risk-{{ item.risk_level }}-bg" data-id="{{ item.id }}">
+                            <td>{{ item.timestamp.strftime('%Y-%m-%d %H:%M') }}</td>
+                            <td>{{ item.query }}</td>
+                            <td>{{ item.search_type|title }}</td>
+                            <td>{{ item.result_count }}</td>
+                            <td class="risk-{{ item.risk_level }}">{{ item.risk_level|title }}</td>
+                            <td class="actions">
+                                <a href="{{ url_for('history.view_search_details', search_id=item.id) }}" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-search"></i> View
+                                </a>
+                                <button class="btn btn-sm btn-danger delete-search" data-id="{{ item.id }}">
+                                    <i class="fas fa-trash"></i> Delete
+                                </button>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <div class="no-history">
+            <p>No search history found. Start by performing a search.</p>
+            <a href="{{ url_for('index') }}" class="btn btn-primary">Start a New Scan</a>
+        </div>
+    {% endif %}
+</div>
+
+<style>
+.history-item {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.history-item:hover {
+    background-color: rgba(0,0,0,0.03);
+}
+
+.history-preview {
+    display: none;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    padding: 15px 20px;
+}
+
+.history-item:hover + .history-preview,
+.history-preview:hover {
+    display: block;
+}
+
+.preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.preview-header h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.preview-view-all {
+    font-size: 12px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.preview-stats {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.preview-stat {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+    border-right: 1px solid #eee;
+}
+
+.preview-stat:last-child {
+    border-right: none;
+}
+
+.stat-value {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.stat-label {
+    display: block;
+    font-size: 12px;
+    color: #7f8c8d;
+}
+
+.preview-findings {
+    background-color: white;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.preview-findings h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.findings-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.findings-list li {
+    padding: 5px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.findings-list li:last-child {
+    border-bottom: none;
+}
+
+.risk-label {
+    font-weight: 600;
+}
+
+.no-preview-results {
+    padding: 20px;
+    text-align: center;
+    color: #7f8c8d;
+}
+
+.search-type-badge {
+    background-color: #3498db;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+</style>
+{% endblock %}

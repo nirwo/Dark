@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Search Logs - Dark Web Scanner{% endblock %}
+
+{% block content %}
+<div class="log-container">
+    <h2>Search Logs</h2>
+    
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="flash-message">
+        {{ messages[0] }}
+    </div>
+    {% endif %}
+    {% endwith %}
+    
+    <div class="log-content">
+        <pre>{{ log_content }}</pre>
+    </div>
+    
+    <div class="log-actions">
+        <a href="{{ url_for('auth.admin_panel') }}" class="btn btn-primary">
+            <i class="fas fa-arrow-left"></i> Back to Admin Panel
+        </a>
+    </div>
+</div>
+{% endblock %}
