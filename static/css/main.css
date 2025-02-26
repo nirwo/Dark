@@ -412,3 +412,30 @@
 .back-to-top.visible {
     opacity: 1;
 }
+
+/* History Page Styles */
+.history-item.selected {
+    background-color: rgba(52, 152, 219, 0.1) !important;
+    border-left: 4px solid #3498db;
+}
+
+.history-list {
+    margin-top: 20px;
+}
+
+.export-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+/* Flash Message Styles */
+.flash-message {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}

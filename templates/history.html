@@ -181,3 +181,77 @@
 }
 </style>
 {% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get all delete buttons
+        const deleteButtons = document.querySelectorAll('.delete-search');
+        
+        // Add click event listener to each delete button
+        deleteButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const searchId = this.getAttribute('data-id');
+                if (confirm('Are you sure you want to delete this search? This action cannot be undone.')) {
+                    // Create and submit a form to delete the search
+                    const form = document.createElement('form');
+                    form.method = 'POST';
+                    form.action = '/history/delete/' + searchId;
+                    document.body.appendChild(form);
+                    form.submit();
+                }
+            });
+        });
+        
+        // Handle export buttons
+        const exportCsvBtn = document.getElementById('export-csv');
+        const exportJsonBtn = document.getElementById('export-json');
+        
+        if (exportCsvBtn) {
+            exportCsvBtn.addEventListener('click', function() {
+                // Get the selected search ID
+                const selectedRow = document.querySelector('.history-item.selected');
+                if (selectedRow) {
+                    const searchId = selectedRow.getAttribute('data-id');
+                    window.location.href = '/export/history/' + searchId + '/csv';
+                } else {
+                    alert('Please select a search to export');
+                }
+            });
+        }
+        
+        if (exportJsonBtn) {
+            exportJsonBtn.addEventListener('click', function() {
+                // Get the selected search ID
+                const selectedRow = document.querySelector('.history-item.selected');
+                if (selectedRow) {
+                    const searchId = selectedRow.getAttribute('data-id');
+                    window.location.href = '/export/history/' + searchId + '?format=json';
+                } else {
+                    alert('Please select a search to export');
+                }
+            });
+        }
+        
+        // Add row selection functionality
+        const historyRows = document.querySelectorAll('.history-item');
+        historyRows.forEach(row => {
+            row.addEventListener('click', function(e) {
+                // Don't select if clicking on a button
+                if (e.target.tagName === 'BUTTON' || e.target.closest('button') || 
+                    e.target.tagName === 'A' || e.target.closest('a')) {
+                    return;
+                }
+                
+                // Toggle selected class
+                document.querySelectorAll('.history-item').forEach(r => {
+                    r.classList.remove('selected');
+                });
+                this.classList.add('selected');
+            });
+        });
+    });
+</script>
+{% endblock %}
