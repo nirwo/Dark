@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentQuery = '';
     let currentType = '';
     let resultsPollingInterval;
+    const engineProgressContainer = document.getElementById('engine-progress-container');
 
     // Handle form submission
     searchForm.addEventListener('submit', function(e) {
@@ -161,6 +162,22 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             console.log('Poll results:', data);
             
+            // Update main progress
+            if (data.progress) {
+                progress = data.progress;
+                progressBar.style.width = `${progress}%`;
+            }
+            
+            // Update current status message
+            if (data.message) {
+                currentStatus.textContent = data.message;
+            }
+
+            // Update engine-specific progress bars
+            if (data.engines_progress) {
+                updateEngineProgress(data.engines_progress);
+            }
+            
             if (data.status === 'completed' || data.status === 'error') {
                 // Stop progress simulation and polling
                 clearInterval(progressInterval);
@@ -172,11 +189,69 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Show results
                 setTimeout(showResults, 500, data);
+            } else {
+                // Continue polling
+                if (!resultsPollingInterval) {
+                    resultsPollingInterval = setInterval(pollResults, 2000);
+                }
             }
         })
         .catch(error => {
             console.error('Error polling results:', error);
         });
+    }
+
+    // Update engine-specific progress bars
+    function updateEngineProgress(enginesProgress) {
+        // Clear the container first if needed
+        if (engineProgressContainer.children.length === 0) {
+            engineProgressContainer.innerHTML = '<h4>Search Engines Progress</h4>';
+        }
+        
+        // Process each engine category
+        Object.keys(enginesProgress).forEach(category => {
+            const categoryData = enginesProgress[category];
+            
+            // Look for existing category element or create a new one
+            let categoryElement = document.getElementById(`engine-category-${category}`);
+            
+            if (!categoryElement) {
+                categoryElement = document.createElement('div');
+                categoryElement.id = `engine-category-${category}`;
+                categoryElement.className = 'engine-progress-item';
+                categoryElement.innerHTML = `
+                    <div class="engine-progress-header">
+                        <div class="engine-name">${formatCategoryName(category)}</div>
+                        <div class="engine-stats">
+                            <span id="${category}-completed">0</span>/<span id="${category}-total">0</span> sites,
+                            <span id="${category}-results">0</span> results
+                        </div>
+                    </div>
+                    <div class="engine-progress-bar">
+                        <div class="engine-progress-fill" id="${category}-progress-fill"></div>
+                    </div>
+                `;
+                engineProgressContainer.appendChild(categoryElement);
+            }
+            
+            // Update the stats
+            document.getElementById(`${category}-completed`).textContent = categoryData.completed || 0;
+            document.getElementById(`${category}-total`).textContent = categoryData.total || 0;
+            document.getElementById(`${category}-results`).textContent = categoryData.found_results || 0;
+            
+            // Update progress bar
+            const progressPercent = categoryData.total ? Math.round((categoryData.completed / categoryData.total) * 100) : 0;
+            document.getElementById(`${category}-progress-fill`).style.width = `${progressPercent}%`;
+        });
+    }
+    
+    // Format category name for display
+    function formatCategoryName(category) {
+        return category
+            .replace(/_/g, ' ')
+            .split(' ')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
     }
 
     // Show search results
@@ -293,12 +368,35 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 let mentionsHtml = '';
                 siteData.mentions.forEach(mention => {
-                    mentionsHtml += `
-                        <div class="mention">
-                            <div class="mention-context">${mention.context || 'Context not available'}</div>
-                            <div class="mention-date">${mention.date || 'Date unknown'}</div>
-                        </div>
-                    `;
+                    // Format the mention context
+                    let mentionContext = mention.context || 'Context not available';
+                    
+                    // Check if the mention starts with "Found on onion site:" and format it specially
+                    if (mentionContext.startsWith("Found on onion site:")) {
+                        // Extract the URL and the context
+                        const lines = mentionContext.split("\n");
+                        const siteInfo = lines[0];
+                        const contextText = lines.slice(1).join("\n");
+                        
+                        // Format with the URL as a clickable link (if TOR browser is installed)
+                        mentionsHtml += `
+                            <div class="mention">
+                                <div class="mention-header">
+                                    <strong>${siteInfo}</strong>
+                                </div>
+                                <div class="mention-context">${contextText}</div>
+                                <div class="mention-date">${mention.date || 'Date unknown'}</div>
+                            </div>
+                        `;
+                    } else {
+                        // Standard format for other mentions
+                        mentionsHtml += `
+                            <div class="mention">
+                                <div class="mention-context">${mentionContext}</div>
+                                <div class="mention-date">${mention.date || 'Date unknown'}</div>
+                            </div>
+                        `;
+                    }
                 });
                 
                 resultItem.innerHTML = `

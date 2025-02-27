@@ -196,9 +196,20 @@
 .search-progress {
     background-color: #eee;
     border-radius: 10px;
-    height: 10px;
-    margin: 20px 0;
+    height: 20px;
+    margin: 15px 0;
     overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+.progress-label {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+    color: var(--primary-color);
 }
 
 .progress-bar {
@@ -212,6 +223,82 @@
     color: #666;
     font-size: 14px;
     margin-top: 10px;
+}
+
+/* Engine progress container */
+.engine-progress-container {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.engine-progress-item {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.engine-progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.engine-name {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.engine-stats {
+    font-size: 12px;
+    color: #666;
+}
+
+.engine-status {
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.engine-status.pending {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+.engine-status.in-progress {
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+.engine-status.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.engine-status.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.engine-progress-bar {
+    height: 8px;
+    background-color: #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.engine-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent-color) 0%, #2ecc71 100%);
+    transition: width 0.3s ease;
 }
 
 /* Results styles */
@@ -270,15 +357,16 @@
     background-color: white;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-left: 4px solid #3498db;
 }
 
 .result-header {
-    padding: 15px 20px;
-    border-bottom: 1px solid #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .result-title {
@@ -319,6 +407,40 @@
 .result-description {
     margin-bottom: 20px;
     color: #555;
+}
+
+.mentions {
+    margin-top: 20px;
+}
+
+.mention {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    border-left: 3px solid #e0e0e0;
+}
+
+.mention-header {
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    word-break: break-all;
+}
+
+.mention-context {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    white-space: pre-line;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.mention-date {
+    font-size: 12px;
+    color: #666;
+    text-align: right;
 }
 
 .mentions-list {

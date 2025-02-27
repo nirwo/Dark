@@ -64,143 +64,156 @@ USER_AGENTS = [
 
 # --- Dark Web Search Engines ---
 TARGETS = [
-    # Original search engines
+    # Dark Web Search Engines (General Dark Web Content)
     {
-        "name": "Ahmia Search",
+        "name": "Ahmia",
         "url": "http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/search?q={query}",
-        "type": "general"
+        "type": "general",
+        "description": "One of the most reliable dark web search engines that indexes .onion pages. Can be used to search for leaks."
     },
     {
-        "name": "Torch Search",
+        "name": "Torch",
         "url": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/search?q={query}",
-        "type": "general"
+        "type": "general",
+        "description": "One of the largest .onion search engines, indexes many hidden services."
     },
     {
-        "name": "Haystak Search",
+        "name": "Haystak",
         "url": "http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/search?q={query}",
-        "type": "general"
+        "type": "general",
+        "description": "A deep index of .onion sites, useful for finding hidden leak pages."
     },
     {
         "name": "Deep Search",
         "url": "http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/search?q={query}",
-        "type": "general"
+        "type": "general",
+        "description": "A reliable search engine that indexes .onion sites in a more structured way."
     },
     {
-        "name": "TorDex Search",
+        "name": "TorDex",
         "url": "http://tordexyb63aknnvuzyqabeqx6l7zdiesfos22nisv6zbj6c6o3h6ijyd.onion/search?q={query}",
-        "type": "general"
+        "type": "general",
+        "description": "A search engine specifically for .onion domains."
     },
     
-    # Additional Search Engines
+    # Dark Web Breach Databases (Check Email/User Breaches)
     {
-        "name": "Not Evil",
-        "url": "http://hss3uro2hsxfogfq.onion/search?q={query}",
-        "type": "general"
+        "name": "OnionSearch",
+        "url": "http://onionsearchservlty4vzd4z6s2nqwe5vt2vqspj46sw36w3b3xrsd77yd.onion/search?q={query}",
+        "type": "breach",
+        "description": "A search engine specialized in finding breach dumps and leaked data on the dark web."
     },
     {
-        "name": "Candle",
-        "url": "http://gjobqjj7wyczbqie.onion/search?q={query}",
-        "type": "general"
+        "name": "Hacked Emails Lookup",
+        "url": "http://hackedemailsb4dnvmaic55h5kqgmoylye6s3vczhj4zzb62adttyd.onion/search?q={query}",
+        "type": "breach",
+        "description": "Lets you check if an email address appears in a known breach dump."
     },
     {
-        "name": "Excavator",
-        "url": "http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion/search?q={query}",
-        "type": "general"
+        "name": "IntelX Dark Web Search",
+        "url": "http://kuddyrdtftnkgzmlmbmxlizwi77h3zxtom5vgu65cmxkrxnpxhv6toyd.onion/search?q={query}",
+        "type": "breach",
+        "description": "Search engine indexing leaked credentials and sensitive documents."
     },
     {
-        "name": "OnionLand Search",
-        "url": "http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/search?q={query}",
-        "type": "general"
-    },
-    
-    # Data Breach Specialized Sites
-    {
-        "name": "Breach Forums",
-        "url": "http://breachedu76kdyavc.onion/search?q={query}",
-        "type": "breach"
-    },
-    {
-        "name": "Breach Directory",
-        "url": "http://breachdbfgvuydyd.onion/search.php?query={query}",
-        "type": "breach"
-    },
-    {
-        "name": "RaidForums Archive",
-        "url": "http://raidforums5zv5gdqmro4rhjrrjmdrudrcv5nc5kyj7v5eokgeekpyd.onion/search?keywords={query}",
-        "type": "breach"
-    },
-    {
-        "name": "Leaked Database",
-        "url": "http://leakeddb7mheb4uu.onion/search/{query}",
-        "type": "breach"
-    },
-    {
-        "name": "Leaked Source",
-        "url": "http://ugvvpzvfiuo2pc7g.onion/search/{query}",
-        "type": "breach"
-    },
-    {
-        "name": "Breach Parse",
-        "url": "http://breachparsevujm5r.onion/search.php?s={query}",
-        "type": "breach"
+        "name": "DarkBing",
+        "url": "http://darkbing7mfomaavciwltpnuwtv7bymjsoaj5ltkjqizdcwvwma6tyd.onion/search?q={query}",
+        "type": "breach",
+        "description": "Focuses on breached databases, often including credential leaks."
     },
     
-    # Paste Sites (often used for data dumps)
+    # Marketplaces for Stolen Data (Leaked Credentials, Financial Data)
     {
-        "name": "Deep Paste",
-        "url": "http://paste6kr6ttaxjdg.onion/search?q={query}",
-        "type": "paste"
+        "name": "Brian's Club",
+        "url": "http://briansclcfyc5xpe73xlvwsujp2ujlg7wdm7vkk33wv4b75yhyzdwioyd.onion/search?q={query}",
+        "type": "market",
+        "description": "One of the largest stolen credit card markets, frequently targeted by law enforcement."
     },
     {
-        "name": "Strong Hold Paste",
-        "url": "http://nzxj65x32vh2fkhk.onion/search?q={query}",
-        "type": "paste"
+        "name": "BidenCash",
+        "url": "http://bidencash7srks2wmb6ksmow4ktswio7l2w6we4pycicnww2dfjzzkyd.onion/search?q={query}",
+        "type": "market",
+        "description": "Stolen credit card and banking data; occasionally releases free leaks."
     },
     {
-        "name": "Onion Paste",
-        "url": "http://pastdbekanpk2fof.onion/search?q={query}",
-        "type": "paste"
-    },
-    
-    # Hacking Forums
-    {
-        "name": "0day Forum",
-        "url": "http://qzbkwswfv5k2oj5d.onion/search?q={query}",
-        "type": "forum"
+        "name": "Russian Market",
+        "url": "http://russianmarketuvklb5p4rhwnrrn3kyooyhlf52fsbvfr3yp5u3zy67cid.onion/search?q={query}",
+        "type": "market",
+        "description": "Specializes in hacked PayPal accounts, bank logs, and financial credentials."
     },
     {
-        "name": "Hack Forums",
-        "url": "http://hackforav3sjhkbi.onion/search.php?keywords={query}",
-        "type": "forum"
-    },
-    {
-        "name": "CryptBB",
-        "url": "http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion/search.php?keywords={query}",
-        "type": "forum"
+        "name": "AllWorld.Cards",
+        "url": "http://awcardsybzcmmzqkbzmwfwjht7x6tupvrz6foztfuowumgi2bq5joiqd.onion/search?q={query}",
+        "type": "market",
+        "description": "Stolen credit cards and bank account credentials, with occasional public leaks."
     },
     
-    # Marketplaces (sometimes have data for sale)
+    # Ransomware Leak Sites (Corporate & Personal Leaks)
     {
-        "name": "Hydra Market",
-        "url": "http://hydraclubbioknikokex7njhwuahc2l67lfiz7z36md2jvopda7nchid.onion/search?query={query}",
-        "type": "market"
+        "name": "ALPHV (BlackCat) Ransomware Leaks",
+        "url": "http://alphvmmf3wzhvf5ty7yqgt5hcbqfndfqkrbsllhncjh6sziqfrp4j5yd.onion/posts?q={query}",
+        "type": "ransomware",
+        "description": "A ransomware gang that leaks stolen corporate and user data."
     },
     {
-        "name": "Black Market",
-        "url": "http://blackma6xtzkajcy2eahws4q65ayhnsa6kghu6oa6sci2ul47fq66jqd.onion/search?q={query}",
-        "type": "market"
+        "name": "LockBit Leaks",
+        "url": "http://lockbitdrja3rx4ffxvqhbwx5jbf5xckie6mnb2zvvykv5qdmgbt3mad.onion/search?q={query}",
+        "type": "ransomware",
+        "description": "One of the most active ransomware gangs publishing corporate and personal data leaks."
+    },
+    {
+        "name": "Medusa Blog",
+        "url": "http://medusa5j6xjwp7qopuwjrnvbhnqcxj2bg3tntcz7plhkjlgbhfc3dyd.onion/search?q={query}",
+        "type": "ransomware",
+        "description": "Leaks company databases including user account info from hacked companies."
     },
     
-    # Specialized Search Engines
+    # Forums Where Leaked Data is Shared
     {
-        "name": "Kilos Search",
-        "url": "http://dnmugu4755642434.onion/search?query={query}",
-        "type": "specialized"
+        "name": "BreachForums (Rebuilt)",
+        "url": "http://breachforums76tdp26mpxvc2wr5edfg4eqme6d6uhc7gbkr46iyd.onion/search?q={query}",
+        "type": "forum",
+        "description": "A revival of the BreachForums site, where stolen data is shared and sold."
+    },
+    {
+        "name": "Exploit Forum",
+        "url": "http://exploit5f5zhr53ntuvkaigc2yaz7xuf7rohtdqvvy6hwgvlba2vid.onion/search?q={query}",
+        "type": "forum",
+        "description": "A Russian hacking forum with stolen logins, bank access, and exploits."
+    },
+    {
+        "name": "XSS Forum",
+        "url": "http://xss6al27uwo2o2ry4br6bkyrvye24jdu5p2twe5hhlkivwdn7xil7iid.onion/search?q={query}",
+        "type": "forum",
+        "description": "A hacking and data trading forum, often has leaks from major breaches."
+    },
+    
+    # Anonymous Paste Sites (Unstructured Data Dumps)
+    {
+        "name": "Doxbin",
+        "url": "http://doxbinwruaxknfyzxzwbjxb6vvf7uukpzbhdeqrzg6qtp7zrvl6vmyyd.onion/search?q={query}",
+        "type": "paste",
+        "description": "A notorious doxing site containing personal data leaks, passwords, and addresses."
+    },
+    {
+        "name": "DeepPaste",
+        "url": "http://deeppastezxi2xmnznwfxcmmoi3nn5udl6dgsqk3pzu3uk2p4qmyd.onion/search?q={query}",
+        "type": "paste",
+        "description": "A pastebin-style site where leaked passwords and databases appear."
+    },
+    {
+        "name": "OnionPaste",
+        "url": "http://onionpastemw3tcypztu3h7hnm4zzir2d4qvc7e6w3ly2xekrdufnjyid.onion/search?q={query}",
+        "type": "paste",
+        "description": "Another anonymous pasting service, often used for sharing stolen credentials."
     }
 ]
 
 # --- Store Search Results ---
 search_results = {}
+
+# Enhanced structure for tracking site-specific search progress
+search_engines_status = {}
 
 # --- Breach and Paste Patterns ---
 BREACH_PATTERNS = [
@@ -228,25 +241,43 @@ def get_headers():
         'Cache-Control': 'max-age=0'
     }
 
-def extract_breach_context(text, email):
-    """Extract breach context from surrounding text"""
+def extract_breach_context(text, email, site_type="general"):
+    """Extract breach context from surrounding text with enhanced risk assessment"""
     email_pattern = re.escape(email.lower())
+    breach_context = None
+    risk_level = "medium"
     
     # Look for email with surrounding breach indicators
     for pattern in BREACH_PATTERNS:
         regex = rf'(.{{0,100}})({pattern})(.{{0,100}})({email_pattern})(.{{0,100}})'
         match = re.search(regex, text.lower(), re.IGNORECASE)
         if match:
-            return f"...{match.group(1)}{match.group(2)}{match.group(3)}{match.group(4)}{match.group(5)}..."
+            breach_context = f"...{match.group(1)}{match.group(2)}{match.group(3)}{match.group(4)}{match.group(5)}..."
+            
+            # Adjust risk level based on site type and breach pattern
+            if site_type == "ransomware":
+                risk_level = "critical"
+            elif site_type == "breach" or site_type == "market":
+                risk_level = "high"
+            elif site_type == "forum" or site_type == "paste":
+                risk_level = "medium-high"
+            else:
+                risk_level = "medium"
+                
+            break
             
     # If no breach context found, just return surrounding text
-    idx = text.lower().find(email.lower())
-    if idx >= 0:
-        start = max(0, idx-100)
-        end = min(len(text), idx+100)
-        return f"...{text[start:end]}..."
+    if not breach_context:
+        idx = text.lower().find(email.lower())
+        if idx >= 0:
+            start = max(0, idx-100)
+            end = min(len(text), idx+100)
+            breach_context = f"...{text[start:end]}..."
     
-    return None
+    return {
+        "context": breach_context,
+        "risk_level": risk_level
+    }
 
 def assess_onion_sites(email, onion_links):
     """
@@ -325,7 +356,7 @@ def assess_onion_sites(email, onion_links):
                 
                 # Add mention
                 mention = {
-                    "context": f"Found on onion site: {link}\n...{snippet}...",
+                    "context": f"Found on onion site: {link}\n{snippet}",
                     "date": datetime.datetime.now().strftime('%Y-%m-%d')
                 }
                 search_results[email]["results"][title]["mentions"].append(mention)
@@ -338,12 +369,42 @@ def assess_onion_sites(email, onion_links):
                         break
                 
                 # Log the finding
-                logger.debug(f"Found email on onion site: {link}")
+                logger.warning(f"Found mention of {email} on onion site: {link}")
+                
+                # Extract additional data points for enhanced analysis
+                extracted_data = {
+                    "site_url": link,
+                    "snippet": snippet,
+                    "context_length": len(snippet),
+                    "surrounding_terms": [term for term in BREACH_PATTERNS if term.lower() in snippet.lower()],
+                    "timestamp": datetime.datetime.now().isoformat()
+                }
+                
+                # Add to the mention for JSON logging
+                mention["extracted_data"] = extracted_data
+                
+                # Log the finding
                 with open(os.path.join(os.path.dirname(__file__), 'search_log.txt'), 'a') as log_file:
-                    log_file.write(f"[Onion Site: {title}] Found mention: ...{snippet}...\n")
+                    log_file.write(f"[Onion Site: {title}] Found mention: {snippet}\n")
                     
         except Exception as e:
             logger.error(f"Error assessing onion site {link}: {str(e)}")
+
+def process_search_result(idx, site, search_query, search_type, thread_results, target_type):
+    result = search_site(search_query, search_type, site)
+    thread_results[idx] = result
+    
+    # Update search engine status
+    global search_engines_status
+    search_engines_status[search_query][site["name"]]["status"] = "completed"
+    search_engines_status[search_query][site["name"]]["end_time"] = datetime.datetime.now().strftime('%H:%M:%S')
+    
+    # Update progress counters
+    global search_results
+    search_results[search_query]["engines_progress"][target_type]["completed"] += 1
+    
+    if result and result.get("found", False):
+        search_results[search_query]["engines_progress"][target_type]["found_results"] += 1
 
 def search_site(email, search_type, site):
     """Search a specific site for the specified identifier"""
@@ -360,6 +421,8 @@ def search_site(email, search_type, site):
             result["risk_level"] = "medium"
         elif site["type"] == "market":
             result["risk_level"] = "high"
+        elif site["type"] == "ransomware":
+            result["risk_level"] = "critical"
         else:
             result["risk_level"] = "medium"
         
@@ -370,7 +433,8 @@ def search_site(email, search_type, site):
             "forum": f"This is a hacking-focused discussion forum where sensitive information may be shared or traded.",
             "market": f"This is a darknet marketplace where data and credentials may be bought and sold.",
             "general": f"This is a general dark web search engine that indexes .onion sites.",
-            "specialized": f"This is a specialized search service focused on specific types of dark web content."
+            "specialized": f"This is a specialized search service focused on specific types of dark web content.",
+            "ransomware": f"This is a ransomware leak site where stolen corporate and personal data is published."
         }
         result["description"] = type_descriptions.get(site["type"], "A dark web resource that may contain sensitive information.")
         
@@ -395,6 +459,50 @@ def search_site(email, search_type, site):
             # Check if email appears in the page
             if email.lower() in page_text.lower():
                 result["found"] = True
+                
+                # Special handling for ransomware leak sites
+                if site["type"] == "ransomware":
+                    # Extract more comprehensive context for ransomware sites
+                    # Look for data breach details and company information
+                    breach_details = {}
+                    
+                    # Look for date patterns (common in ransomware posts)
+                    date_matches = re.findall(r'\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{4}[/-]\d{1,2}[/-]\d{1,2}|(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]* \d{1,2},? \d{4}', page_text)
+                    if date_matches:
+                        breach_details["date"] = date_matches[0]
+                        
+                    # Look for data size indicators
+                    size_matches = re.findall(r'\d+(?:\.\d+)?\s*(?:GB|MB|TB|kb|mb|gb|tb)', page_text)
+                    if size_matches:
+                        breach_details["data_size"] = size_matches[0]
+                        
+                    # Look for victim organization name (near the email)
+                    org_patterns = [
+                        r'(?:company|organization|victim|target):\s*([A-Za-z0-9\s\.]+)',
+                        r'([A-Za-z0-9\s\.]+)(?:\s+was\s+hacked|\s+breach|\s+leak)'
+                    ]
+                    
+                    for pattern in org_patterns:
+                        org_match = re.search(pattern, page_text, re.IGNORECASE)
+                        if org_match:
+                            breach_details["organization"] = org_match.group(1).strip()
+                            break
+                            
+                    # Enhance risk level based on context
+                    result["risk_level"] = "critical"
+                    
+                    # Create detailed context
+                    if breach_details:
+                        context_parts = ["RANSOMWARE LEAK DETAILS:"]
+                        if "organization" in breach_details:
+                            context_parts.append(f"Organization: {breach_details['organization']}")
+                        if "date" in breach_details:
+                            context_parts.append(f"Date: {breach_details['date']}")
+                        if "data_size" in breach_details:
+                            context_parts.append(f"Data Size: {breach_details['data_size']}")
+                            
+                        result["breach_details"] = breach_details
+                        result["enhanced_context"] = "\n".join(context_parts)
                 
                 # Special handling for OnionLand Search
                 if site["name"] == "OnionLand Search":
@@ -455,7 +563,8 @@ def search_site(email, search_type, site):
                 
                 # Standard extraction for other sites
                 if "mentions" not in result:
-                    # Extract snippet surrounding the email for context
+                    # Extract the entire page text or a much larger context window
+                    # Instead of just a few words before and after
                     words = page_text.split()
                     email_idx = -1
                     
@@ -465,10 +574,13 @@ def search_site(email, search_type, site):
                             break
                             
                     if email_idx >= 0:
-                        start_idx = max(0, email_idx - 15)
-                        end_idx = min(len(words), email_idx + 15)
+                        start_idx = max(0, email_idx - 75)  # Increased from 15 words to 75 words
+                        end_idx = min(len(words), email_idx + 75)  # Increased from 15 words to 75 words
                         context = " ".join(words[start_idx:end_idx])
-                        result["snippet"] = f"...{context}..."
+                        
+                        # Store the full URL and full context without truncating with ellipses
+                        result["snippet"] = context
+                        result["url"] = url
                         
                         # Check for breach patterns
                         for pattern in BREACH_PATTERNS:
@@ -507,14 +619,18 @@ def dark_web_search(search_query, search_type):
     and follows extracted .onion links for further assessment.
     Enhanced to search more sources and analyze breach context.
     """
-    global search_results
+    global search_results, search_engines_status
     search_results[search_query] = {
         "status": "processing",
         "message": "Searching dark web sources...",
         "results": {},
         "sites_searched": len(TARGETS),
-        "started_at": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        "started_at": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        "engines_progress": {}  # Will track progress of each search engine category
     }
+    
+    # Initialize the search engine status tracker for this query
+    search_engines_status[search_query] = {}
 
     all_onion_links = []
     
@@ -525,8 +641,20 @@ def dark_web_search(search_query, search_type):
         "paste": "paste sites",
         "forum": "hacking forums",
         "market": "dark web marketplaces",
+        "ransomware": "ransomware leak sites",
         "specialized": "specialized search services"
     }
+    
+    # Initialize progress for each target type
+    for target_type, description in target_types.items():
+        search_results[search_query]["engines_progress"][target_type] = {
+            "description": description,
+            "status": "pending",
+            "total": len([site for site in TARGETS if site["type"] == target_type]),
+            "completed": 0,
+            "in_progress": 0,
+            "found_results": 0
+        }
     
     # Log the search
     with open(os.path.join(os.path.dirname(__file__), 'search_log.txt'), 'a') as log_file:
@@ -536,16 +664,34 @@ def dark_web_search(search_query, search_type):
     for target_type, description in target_types.items():
         search_results[search_query]["message"] = f"Searching {description}..."
         
+        # Update category status to in_progress
+        search_results[search_query]["engines_progress"][target_type]["status"] = "in_progress"
+        
         # Find all targets of this type
         type_targets = [site for site in TARGETS if site["type"] == target_type]
         
+        if not type_targets:
+            # Skip if no targets of this type
+            search_results[search_query]["engines_progress"][target_type]["status"] = "completed"
+            continue
+            
         # Create threads for parallel searching
         threads = []
         thread_results = [None] * len(type_targets)
         
         for i, site in enumerate(type_targets):
+            # Update search engine status
+            search_engines_status[search_query][site["name"]] = {
+                "status": "in_progress",
+                "type": target_type,
+                "start_time": datetime.datetime.now().strftime('%H:%M:%S')
+            }
+            
+            # Increment in_progress counter
+            search_results[search_query]["engines_progress"][target_type]["in_progress"] += 1
+            
             thread = threading.Thread(
-                target=lambda idx, s: thread_results.__setitem__(idx, search_site(search_query, search_type, s)),
+                target=lambda idx, s: process_search_result(idx, s, search_query, search_type, thread_results, target_type),
                 args=(i, site)
             )
             threads.append(thread)
@@ -554,6 +700,10 @@ def dark_web_search(search_query, search_type):
         # Wait for all threads to complete
         for thread in threads:
             thread.join()
+        
+        # Update category status to completed
+        search_results[search_query]["engines_progress"][target_type]["status"] = "completed"
+        search_results[search_query]["engines_progress"][target_type]["in_progress"] = 0
         
         # Process results from each thread
         for result in thread_results:
@@ -649,6 +799,114 @@ def dark_web_search(search_query, search_type):
         except Exception as e:
             logger.error(f"Error recording search history: {str(e)}")
             db.session.rollback()
+
+    # Save results to JSON
+    save_results_to_json(search_query)
+
+    # Analyze results
+    analysis = analyze_results(search_query)
+    logger.info(f"Analysis results for {search_query}: {analysis}")
+
+def save_results_to_json(email, timestamp=None):
+    """
+    Save search results to a JSON file for archiving and further analysis.
+    
+    Args:
+        email: The search query email/identifier
+        timestamp: Optional custom timestamp, defaults to current time
+    
+    Returns:
+        str: Path to the saved JSON file
+    """
+    if not timestamp:
+        timestamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
+    
+    # Create results directory if it doesn't exist
+    results_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'results')
+    if not os.path.exists(results_dir):
+        os.makedirs(results_dir)
+    
+    # Sanitize filename
+    safe_email = re.sub(r'[^\w\-\.]', '_', email)
+    filename = f"{safe_email}_{timestamp}.json"
+    filepath = os.path.join(results_dir, filename)
+    
+    # Add metadata
+    results_with_metadata = {
+        "search_query": email,
+        "search_timestamp": timestamp,
+        "search_results": search_results.get(email, {}),
+        "analysis_version": "1.0"
+    }
+    
+    # Save to file
+    with open(filepath, 'w') as f:
+        json.dump(results_with_metadata, f, indent=2, default=str)
+    
+    logging.info(f"Search results for {email} saved to {filepath}")
+    return filepath
+
+def analyze_results(email):
+    """
+    Analyze search results to extract insights and patterns.
+    
+    Args:
+        email: The search query email/identifier
+    
+    Returns:
+        dict: Analysis results
+    """
+    if email not in search_results:
+        return {"error": "No results found for this query"}
+    
+    results = search_results[email]
+    analysis = {
+        "query": email,
+        "timestamp": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        "total_mentions": 0,
+        "risk_levels": {"low": 0, "medium": 0, "high": 0, "critical": 0},
+        "source_breakdown": {},
+        "most_concerning_sites": [],
+        "breach_indicators": []
+    }
+    
+    # Count mentions and categorize by risk
+    for site_name, site_data in results.get("results", {}).items():
+        mentions_count = len(site_data.get("mentions", []))
+        analysis["total_mentions"] += mentions_count
+        
+        # Categorize by risk level
+        risk_level = site_data.get("risk_level", "low")
+        analysis["risk_levels"][risk_level] += 1
+        
+        # Source breakdown
+        site_type = site_data.get("type", "unknown")
+        if site_type not in analysis["source_breakdown"]:
+            analysis["source_breakdown"][site_type] = 0
+        analysis["source_breakdown"][site_type] += 1
+        
+        # Track concerning sites
+        if risk_level in ["high", "critical"] and mentions_count > 0:
+            analysis["most_concerning_sites"].append({
+                "name": site_name,
+                "risk_level": risk_level,
+                "mentions": mentions_count
+            })
+        
+        # Track breach indicators
+        if "breach_indicator" in site_data:
+            analysis["breach_indicators"].append({
+                "site": site_name,
+                "indicator": site_data["breach_indicator"]
+            })
+    
+    # Sort concerning sites by risk level
+    analysis["most_concerning_sites"].sort(
+        key=lambda x: (["high", "critical"].index(x["risk_level"]) if x["risk_level"] in ["high", "critical"] else -1, x["mentions"]), 
+        reverse=True
+    )
+    
+    return analysis
 
 @app.route('/')
 @login_required

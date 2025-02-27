@@ -37,3 +37,10 @@ gunicorn==20.1.0
 
 # Security
 cryptography==3.4.8
+
+# Scheduling and Automation
+schedule==1.1.0
+python-crontab==2.6.0
+
+# JSON Processing
+simplejson==3.17.6

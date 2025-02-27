@@ -1,0 +1,36 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="450" fill="#2c3e50"/>
+    <rect x="50" y="50" width="700" height="350" rx="10" fill="#ecf0f1"/>
+    
+    <!-- Header -->
+    <rect x="50" y="50" width="700" height="80" rx="10" fill="#3498db"/>
+    <text x="400" y="100" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Scan Results</text>
+    
+    <!-- Stats -->
+    <rect x="100" y="140" width="600" height="60" rx="5" fill="#f8f9fa"/>
+    
+    <rect x="120" y="150" width="180" height="40" rx="5" fill="white"/>
+    <text x="210" y="170" font-family="Arial" font-size="20" fill="#e74c3c" text-anchor="middle">4</text>
+    <text x="210" y="185" font-family="Arial" font-size="12" fill="#7f8c8d" text-anchor="middle">Mentions Found</text>
+    
+    <rect x="310" y="150" width="180" height="40" rx="5" fill="white"/>
+    <text x="400" y="170" font-family="Arial" font-size="20" fill="#3498db" text-anchor="middle">12</text>
+    <text x="400" y="185" font-family="Arial" font-size="12" fill="#7f8c8d" text-anchor="middle">Sites Searched</text>
+    
+    <rect x="500" y="150" width="180" height="40" rx="5" fill="white"/>
+    <text x="590" y="170" font-family="Arial" font-size="20" fill="#2ecc71" text-anchor="middle">Medium</text>
+    <text x="590" y="185" font-family="Arial" font-size="12" fill="#7f8c8d" text-anchor="middle">Overall Risk</text>
+    
+    <!-- Result Item -->
+    <rect x="100" y="210" width="600" height="180" rx="5" fill="white" stroke="#ddd"/>
+    <rect x="100" y="210" width="8" height="180" rx="4" fill="#e74c3c"/>
+    
+    <text x="120" y="235" font-family="Arial" font-size="16" fill="#34495e" font-weight="bold">Dark Web Marketplace: Empire Market</text>
+    <rect x="520" y="220" width="100" height="25" rx="12.5" fill="#e74c3c"/>
+    <text x="570" y="237" font-family="Arial" font-size="12" fill="white" text-anchor="middle">High Risk</text>
+    
+    <rect x="120" y="250" width="560" height="130" rx="5" fill="#f8f9fa"/>
+    <text x="130" y="270" font-family="Arial" font-size="14" fill="#34495e" font-weight="bold">Found on: juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion</text>
+    <text x="130" y="290" font-family="Arial" font-size="13" fill="#7f8c8d">search results for example@email.com — ahmia unfortunately we have not deployed non-javascript version some results found in credential dumps. May be related to a 2022 breach...</text>
+    <text x="650" y="370" font-family="Arial" font-size="12" fill="#95a5a6" text-anchor="end">2025-02-27</text>
+</svg>

@@ -15,18 +15,19 @@ STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
 # Import search functionality
 try:
-    from modules.search_engine import dark_web_search, get_search_results, test_tor_connection
+    from darkweb_search import dark_web_search, search_results, search_engines_status, test_tor_connection
 except ImportError:
     # Simple mock if the module is not available
     logger.warning("Search engine module not found. Using mock implementation.")
     
     # Mock data for testing
     search_results = {}
+    search_engines_status = {}
     
     def dark_web_search(query, search_type='email'):
         """Mock implementation for testing UI"""
         global search_results
-        search_results[f"{search_type}:{query}"] = {
+        search_results[query] = {
             'status': 'completed', 
             'results': {
                 'Example Site': {
@@ -37,7 +38,12 @@ except ImportError:
                     ]
                 }
             },
-            'sites_searched': 5
+            'sites_searched': 5,
+            'engines_progress': {
+                'general': {'total': 2, 'completed': 2, 'in_progress': 0, 'found_results': 1},
+                'breach': {'total': 2, 'completed': 2, 'in_progress': 0, 'found_results': 1},
+                'paste': {'total': 1, 'completed': 1, 'in_progress': 0, 'found_results': 0}
+            }
         }
     
     def get_search_results():
@@ -76,7 +82,7 @@ def search():
         return jsonify({"status": "error", "message": "No search query provided"}), 400
     
     # Create a unique key based on type and query
-    search_key = f"{search_type}:{search_query}"
+    search_key = search_query
     
     # Run search in a background thread
     threading.Thread(target=dark_web_search, args=(search_query, search_type)).start()
@@ -93,13 +99,27 @@ def results():
         return jsonify({"status": "error", "message": "No search query provided"}), 400
     
     # Create a unique key based on type and query
-    search_key = f"{search_type}:{search_query}"
-    
-    all_results = get_search_results()
+    search_key = search_query
     
     # Check if we have results for this search
-    if search_key in all_results:
-        return jsonify(all_results[search_key])
+    if search_key in search_results:
+        # Calculate overall progress percentage
+        result_data = search_results[search_key]
+        
+        # Calculate overall progress
+        if result_data["status"] == "processing":
+            total_engines = 0
+            completed_engines = 0
+            
+            for category, data in result_data.get("engines_progress", {}).items():
+                total_engines += data.get("total", 0)
+                completed_engines += data.get("completed", 0)
+            
+            # Calculate progress percentage
+            progress_percentage = int((completed_engines / max(total_engines, 1)) * 100)
+            result_data["progress"] = min(progress_percentage, 99)  # Cap at 99% until fully complete
+            
+        return jsonify(result_data)
     else:
         return jsonify({
             "status": "in_progress",
